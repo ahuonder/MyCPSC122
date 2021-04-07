@@ -9,7 +9,7 @@ Description: Program illustrates a linked list with both head and tail pointers
 #include <iostream>
 using namespace std;
 
-#include "2-List.h"
+#include "3-ListT.h"
 
 int main()
 {
@@ -226,7 +226,7 @@ int main()
   cout << "*****************************************************************\n";
   */
   
-  delete []lst1; //necessary to invoke destructor on dynamic list
+  //delete []lst1; //necessary to invoke destructor on dynamic list
   
   cout << endl;
   return 0;
