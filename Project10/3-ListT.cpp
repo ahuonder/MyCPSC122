@@ -25,8 +25,7 @@ List::~List()
   if (length != 0) {
     while (length > 0)
     {
-      //delete using one of my functions
-      //make sure to change length in delete function
+      DeleteItemH();
     }
   }
   

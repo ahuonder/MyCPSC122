@@ -197,7 +197,7 @@ int main()
   cout << "**************************************************************\n";
   */
   
-  /*
+  
   //delete item test
   cout << "************************DeleteItem Test*************************\n";
   int num3, num4;
@@ -224,9 +224,9 @@ int main()
   lst1->Print();
   cout << endl;
   cout << "*****************************************************************\n";
-  */
   
-  //delete []lst1; //necessary to invoke destructor on dynamic list
+  
+  delete lst1; //necessary to invoke destructor on dynamic list
   
   cout << endl;
   return 0;
