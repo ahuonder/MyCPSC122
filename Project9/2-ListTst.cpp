@@ -180,7 +180,7 @@ int main()
   */
   
   cout << endl;
-  
+  delete lst1;
   return 0;
 }
 
