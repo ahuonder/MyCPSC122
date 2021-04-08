@@ -1,8 +1,8 @@
 /*
 Name: Paul De Palma
 Class: CPSC 122, Section 1
-Date Submitted: February 25, 2021
-Assignment: N/A 
+Date Submitted: April 2nd, 2021
+Assignment: Project 11
 Description: header file for a doubly linked list with dummy notes at head and tail
 */
 
