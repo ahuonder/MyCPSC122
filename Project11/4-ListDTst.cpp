@@ -1,5 +1,5 @@
 /*
-Name: Paul De Palma
+Name: Adam Huonder
 Class: CPSC 122, Section 1
 Date Submitted: April 2nd, 2021
 Assignment: Project 11
@@ -10,6 +10,7 @@ Description: doubly linked list with dummy notes at head and tail
 using namespace std;
 
 #include "4-ListD.h"
+#include "4-ListD.cpp"
 
 void TestInsert();
 void TestPrintBackward();
@@ -43,7 +44,7 @@ int main()
 void TestInsert()
 {
 
-  ListD* lst = new ListD;
+  ListD<int>* lst = new ListD<int>;
   for (int i = 1; i <= 6; i++)
     lst->Insert(i,i);
 
@@ -75,7 +76,7 @@ void TestInsert()
 
 void TestPrintBackward()
 {
-  ListD* lst = new ListD;
+  ListD<int>* lst = new ListD<int>;
   for (int i = 1; i < 6; i++)
     lst->Insert(i,i);
     
@@ -88,7 +89,7 @@ void TestPrintBackward()
 
 void TestDelete()
 {
-  ListD* lst = new ListD;
+  ListD<int>* lst = new ListD<int>;
   for (int i = 1; i < 6; i++)
     lst->Insert(i,i);
   
@@ -103,7 +104,7 @@ void TestDelete()
 void TestDeleteAll()
 {
   int deleteNum = 0;
-  ListD* lst = new ListD;
+  ListD<int>* lst = new ListD<int>;
   
   for (int i = 1; i < 4; i++)
     lst->Insert(6,i);
@@ -123,7 +124,7 @@ void TestDeleteAll()
 void TestSort()
 {
   int pos = 1;
-  ListD* lst = new ListD;
+  ListD<int>* lst = new ListD<int>;
 
   lst->Insert(38,1);
   lst->Insert(16,2);
